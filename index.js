@@ -19,7 +19,7 @@ app.use(cors());
 
 app.get('/',(request,response)=>{
     //console.log(request);
-    return response.status(234).send('Welcome to MERN stack tutorial An assignment to retrieve specific book (React,Nodejs and MongoDB)');
+    return response.status(234).send('Welcome to MERN stack tutorial An assignment to retrieve specific book (React,Nodejs and MongoDB) Email Confirmation!!');
 });
 
 app.use(express.urlencoded({extended:true}))  //Add this two lines of code to handle the image upload
