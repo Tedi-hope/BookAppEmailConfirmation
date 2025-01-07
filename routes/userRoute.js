@@ -48,7 +48,7 @@ router.post('/signup',async(request,response)=>{
        
         console.log('After nodemailer is run!!!');
         //Update with your frontend URL
-        const confirmURL=`http://localhost:4444/user/confirm/${token}`;
+        const confirmURL=`https://bookappemailconfirmationserver.vercel.app/user/confirm/${token}`;
 
         //Send confirmation email
         await transporter.sendMail({
