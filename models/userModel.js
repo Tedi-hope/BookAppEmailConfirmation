@@ -16,6 +16,10 @@ const userSchema=mongoose.Schema(
             type:String,
             required:true,
         },
+        isConfirmed:{
+            type:Boolean,
+            default:false,//intially set to false until email confirmation
+        }
     },
     {
         timestamps:true,
