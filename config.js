@@ -3,9 +3,12 @@ export const PORT=4444;
 export const mongoDBURL='mongodb+srv://root:mongopwd@books-store-mern.dmytm.mongodb.net/books-collection?retryWrites=true&w=majority&appName=Books-Store-MERN';
 */
 
+//new url mongodb+srv://root:bookpwd@books-store-mern.jwigt.mongodb.net/?retryWrites=true&w=majority&appName=Books-Store-MERN
+//old url mongodb+srv://root:mongopwd@books-store-mern.dmytm.mongodb.net/books-collection
+
 export const PORT = process.env.PORT || 4444;
 
-export const mongoDBURL = process.env.MONGO_DB_URL || 'mongodb+srv://root:mongopwd@books-store-mern.dmytm.mongodb.net/books-collection';
+export const mongoDBURL = process.env.MONGO_DB_URL || 'mongodb+srv://root:bookpwd@books-store-mern.jwigt.mongodb.net/books-collection';
 
 export const emailConfig = {
     host: process.env.EMAIL_HOST || 'smtp.gmail.com',
